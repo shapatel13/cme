@@ -130,7 +130,7 @@ class MedicalCaseAgent:
     def initialize_agent(user_id, case_id="case-001"):
         """Initialize the Agno agent with persistent storage."""
         agent = Agent(
-            model=OpenAIChat(id="gpt-4o",api_key="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"),
+            model=OpenAIChat(id="gpt-4o",api_key="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"),
             # Store agent sessions in a database
             storage=SqliteAgentStorage(
                 table_name="medical_trainer_sessions", 
