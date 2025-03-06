@@ -16,6 +16,8 @@ from agno.agent import Agent
 from agno.models.openai import OpenAIChat
 from agno.storage.agent.sqlite import SqliteAgentStorage
 
+api_key = st.secrets["API_KEY"]
+
 # Constants
 APP_TITLE = "Medical Case Trainer for CME"
 
